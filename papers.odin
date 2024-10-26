@@ -35,7 +35,7 @@ main :: proc() {
     // populate an array of papers with random sizes and colors
     papers : [dynamic]Paper
 
-    for i in 0..<100{ 
+    for i in 0..<6{ 
         using new_paper : Paper = ---
 
         rect.x = rand.float32() * 300
